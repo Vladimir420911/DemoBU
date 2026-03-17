@@ -46,6 +46,7 @@ namespace DemoBU
             OrderList.DisplayMember = "Id";
         }
 
+
         private void OrderList_SelectedIndexChanged(object sender, EventArgs e)
         {
             Order order = OrderList.SelectedItem as Order;
